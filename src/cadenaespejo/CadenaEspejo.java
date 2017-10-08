@@ -1,16 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package cadenaespejo;
 
 import java.util.Scanner;
 
-/**
- *
- * @author yojar
- */
+
 public class CadenaEspejo {
 
     /**
@@ -22,7 +15,7 @@ public class CadenaEspejo {
 		String palabra;
 		int posicion;
 		char caracter;
-		System.out.println("Inserta la palabra");
+		System.out.println("Ingrese la palabra");
 		palabra = scan.next();
 		posicion = palabra.length() - 2;
 		while (posicion >= 0){
